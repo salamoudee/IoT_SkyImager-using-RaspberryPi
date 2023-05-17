@@ -4,7 +4,7 @@ A low cost sky imager developed to focus on providing real time cloud images and
 
 However due to my negligence, I dont have the raspberry pi with me sooo, I dont have the file to capture the sky images using the raspberry Pi :((( The file above is only the data processing part for the sky images.
 
-Afraid not! The raspberry pi coding is easy, you just capture image -> transfer the image via TCP (you need to know your IP), and then the image is processed using the file above.
+Afraid not! The raspberry pi coding is easy, you just capture image -> transfer the image via Socket (you need to know your IP), and then the image is processed using the file above.
 
 I created this project to predict the weather condition. To do this, the cloud colours are divided into 4 colour ranges.
 1. White clouds typically indicate fair weather.
